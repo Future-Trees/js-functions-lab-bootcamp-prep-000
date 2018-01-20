@@ -4,15 +4,15 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name){
-  return 'Happy holidays, `${name}!'
+  return 'Happy holidays, ${name}!`'
 }
-
+happyHolidaysto('you')
 
 function happyHolidayTo(holiday, name){
-  return 'Happy ${holiday}, ${name}!'
+  return 'Happy `${holiday}, ${name}!'
 }
 
-happyHolidaysTo(holidays)
+happyHolidayTo('Independence day', '')
 
 function holidayCountdown(days, holiday){
   return 'It\'s ${days} days until ${holiday}!`'
